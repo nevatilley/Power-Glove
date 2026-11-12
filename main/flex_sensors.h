@@ -1,5 +1,5 @@
-//FOR ONE FINGER ONLY
-
+// Initializes and reads the first flex sensor on GPIO32.
+// Additional flex sensors are configured and read in main.cpp.
 #pragma once  // Prevents the header from being included multiple times
 
 #include "esp_adc/adc_oneshot.h" // Includes ADC functions
